@@ -14,9 +14,9 @@ socket.connect("tcp://192.168.1.31:5555")
 
 encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
 
-#camera = cv2.VideoCapture(0) #camero for linux server
+#camera = cv2.VideoCapture(0) #use camera in linux 
 
-### lauching the pi camera in raspberry pi ###
+### launching the pi camera in raspberry pi ###
 
 #camera = PiCamera()
 #camera.start_preview()
