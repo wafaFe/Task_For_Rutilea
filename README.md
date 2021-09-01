@@ -13,7 +13,7 @@ In order to run the project (from both server and client) you should use :<br/>
 `python3 <filename.py>` 
 
 To establish a communication with the Raspberry pi you should have an ssh protocol working : <br/>
-- You can use the cmdline to tipe : `ssh pi@<PiAdress>` <br/>
+- You can use the cmdline to tipe : `ssh pi@<PiAddress>` <br/>
 - Or via Putty
 
 ## Image Output<br/>
