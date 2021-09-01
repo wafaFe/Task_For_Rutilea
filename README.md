@@ -12,7 +12,18 @@ Raspberry pi running debian <br/>
 In order to run the project (from both server and client) you should use :<br/> 
 `python3 <filename.py>` 
 
+To establish a communication with the Raspberry pi you should have an ssh protocol working : <br/>
+- You can use the cmdline to tipe : `ssh pi@<PiAdress>` <br/>
+- Or via Putty
+
 ## Image Output<br/>
-Output from server side <br/>
-After running both programs of the client from the raspberry pi and of the server from linux PC
-<p align="center"><img src="https://github.com/wafaFe/Task_For_Rutilea/blob/main/ImageReadme/Output_task_image.png" alt="Output"></p>
+
+Output from client side <br/>
+Sending the chosen image to server
+<p align="center"><img src="https://github.com/wafaFe/Task_For_Rutilea/blob/main/ImageReadme/Raspi_client_output.png" alt="Client Raspberry pi Output"></p>
+
+After running both programs of the client from the raspberry pi and of the server from linux PC <br/>
+The server listens for arrival data from sockets
+
+When received, the image is displayed
+<p align="center"><img src="https://github.com/wafaFe/Task_For_Rutilea/blob/main/ImageReadme/linux_server_Output.jpg" alt="Server Output"></p>
