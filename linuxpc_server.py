@@ -12,7 +12,6 @@ socket.bind("tcp://*:5555")
 
 encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
 
-print("before while")
 while True:
     try:
        print("waiting for the client to send data")
