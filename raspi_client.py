@@ -4,6 +4,8 @@ import zmq
 import cv2
 import base64
 from base64 import b64encode, b64decode
+#from picamera import PiCamera
+#from time import sleep
 
 #connect sockets
 ctx = zmq.Context()
@@ -11,15 +13,21 @@ socket = ctx.socket(zmq.REQ)
 socket.connect("tcp://192.168.1.31:5555")
 
 encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
-### init the camera in raspberry pi ###
-#camera = cv2.VideoCapture(0)  
+
+#camera = cv2.VideoCapture(0) #camero for linux server
+
+### lauching the pi camera in raspberry pi ###
+
+#camera = PiCamera()
+#camera.start_preview()
+#camera.capture('assets/wafa.jpg')
 
 ### reading image from source file ###
 image = cv2.imread("assets/wafa.jpg", cv2.IMREAD_COLOR)
+
 while True:
     try:
        ### take picture from camera ###
-       #image = camera.shot()
        #(grabbed, frame) = camera.read()
 
        frame = cv2.resize(image, (640, 480))  # resize the frame
