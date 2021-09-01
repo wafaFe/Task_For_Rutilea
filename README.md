@@ -18,12 +18,12 @@ To establish a communication with the Raspberry pi you should have an ssh protoc
 
 ## Image Output<br/>
 
-Output from client side <br/>
-Sending the chosen image to server
+- Output from client side <br/>
+Sending the chosen image from Raspberry Pi to Server 
 <p align="center"><img src="https://github.com/wafaFe/Task_For_Rutilea/blob/main/ImageReadme/Raspi_client_output.png" alt="Client Raspberry pi Output"></p>
 
 After running both programs of the client from the raspberry pi and of the server from linux PC <br/>
 The server listens for arrival data from sockets
 
-When received, the image is displayed
+- When received, the image is displayed from Server side
 <p align="center"><img src="https://github.com/wafaFe/Task_For_Rutilea/blob/main/ImageReadme/linux_server_Output.jpg" alt="Server Output"></p>
