@@ -1,4 +1,4 @@
-# Sending camera image to server
+# Sending camera image from client to server
 ## About
 Programs to send image from a Raspberry pi Client to a server On-premiss(linux PC). 
 ### Required Environment to run this project : <br/>
